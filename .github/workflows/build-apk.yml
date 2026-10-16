@@ -15,7 +15,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip -q status-jernih-android-source-v1.zip
+          unzip -q status-jernih-android-source-v2.zip
           cd StatusJernih
           echo "PROJECT_DIR=$PWD" >> "$GITHUB_ENV"
 
